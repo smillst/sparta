@@ -2,8 +2,6 @@ language: java
 
 install: true
 
-## Temporarily disabled, until we add logic to install Android SDK
-# script: true
 script: travis_wait 120 ./.travis-build.sh
 
 sudo: false
@@ -15,7 +13,8 @@ jdk:
 
 notifications:
   email:
-    - sparta@cs.washington.edu
+## Email me for now
+    - smillst@cs.washington.edu
 
 git:
   depth: 9
