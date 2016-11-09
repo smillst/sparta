@@ -5,7 +5,7 @@ ROOT=$TRAVIS_BUILD_DIR/..
 set -e
 
 wget https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz
-tar -xvf android-sdk_r24.2-linux.tgz
+tar -xvf android-sdk_*-linux.tgz
 cd android-sdk-linux/tools
 # install all sdk packages
 ./android list sdk
