@@ -9,8 +9,10 @@ set -e
 # This also builds annotation-tools and jsr308-langtools
 (cd checker-framework/ && ./.travis-build-without-test.sh)
 
+
+
 ## Build
 ant jar
 
 ## Run tests
-ant all-tests
+#ant all-tests
