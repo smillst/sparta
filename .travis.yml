@@ -37,7 +37,7 @@ script:
      fi &&
      java -version &&
      javac -version &&
-     ./.travis-build.sh
+     ./.travis-build.sh"
 
 git:
   depth: 9
